@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# Test reports
+test-output/
+
+# Local secrets
+src/test/resources/config.local.properties
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# Logs
+*.log

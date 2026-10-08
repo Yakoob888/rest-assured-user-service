@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="REST Assured Suite">
+
+	<listeners>
+		<listener
+			class-name="com.skytech.restassured.listener.ExtentTestListener" />
+	</listeners>
+
+	<test name="User API Tests">
+
+		<classes>
+
+			 <class name="com.skytech.restassured.test.CreateUserTest"/>
+            <class name="com.skytech.restassured.test.GetUserTest"/>
+            <class name="com.skytech.restassured.test.GetAllUsersTest"/>
+            <class name="com.skytech.restassured.test.UpdateUserTest"/>
+            <class name="com.skytech.restassured.test.DeleteUserTest"/>
+
+		</classes>
+
+	</test>
+
+</suite>
